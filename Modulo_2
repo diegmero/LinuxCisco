@@ -4,6 +4,45 @@ Servidor Web
 Aplicacion web = Wordpress
 
 
-******Servidor Correo Electronico*******
+****** SERVIDOR CORREO ELECTRONICO *******
 SMTP : Simple Mail Transfer Protocol, es quien decide que servidor recibe el correo electronico enviado
 MDA : Agente de entrega de email, es quien almacena el correo en el buzon del usuario
+POP : Descarga los correos electronicos del servidor y los almacena en el escritorio o movil
+IMAP : Almacena los correos solamente en el servidor
+
+********* SHELL *************************
+. por ejemplo sysadmin@localhost, sysadmin es el nombre de usuario y localhost es el nombre del servidor
+. ~ : signo tilde significa que se encuentra en el ditectorio HOME
+. $ : signo dolar significa cuenta sin privilegios
+. Variedad de shell para elegir en linux, las mas conocidas son Bourne-Shell ("Hoy en dia se llama BASH") y C-shell("Hoy en dia se llama TCSH")- Tambien hay personas que han creado shell personales a base de estos
+
+********* EDITOR DE TEXTO **************
+Vi o Vim y emacs- Son modernos y ofrecen un editor de texto avanzado. ("curva de aprendizaje alta)
+pico y nano - Son editores de texto basicos muy funcionales. 
+
+
+********** PRIVACIDAD Y SEGURIDAD ****************
+. Es bueno activar el firewall
+. Si se quiere navegar en internet de manera segura - descargar y utilizar **** NAVEGATOR TOR ***** Para que la presencia de internet sea nula aunque algunos sitios no funcionarán correctamente
+
+********** GUI - CLI****************
+GUI : Interfaz Grafica de Usuario
+CLI : Interfaz de Linea de Comandos
+
+
+
+
+
+
+
+GLOSARIO {
+  MOTD = Mensajes del dia, se produce despues de iniciar sesion y es el mensaje de bienvenida al entrar con el login del servidor
+
+}
+
+
+
+
+COMANDOS APRENDIDOS {
+  W : Muestra quien está conectado
+}
