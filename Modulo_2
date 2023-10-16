@@ -1,1 +1,9 @@
-Estas son las notas del modulo 2 de cisco
+*******Estas son las notas del modulo 2 de cisco********
+
+Servidor Web
+Aplicacion web = Wordpress
+
+
+******Servidor Correo Electronico*******
+SMTP : Simple Mail Transfer Protocol, es quien decide que servidor recibe el correo electronico enviado
+MDA : Agente de entrega de email, es quien almacena el correo en el buzon del usuario
