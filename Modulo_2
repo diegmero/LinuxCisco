@@ -65,7 +65,8 @@ CLI : Interfaz de Linea de Comandos
   $PATH : Muestra las rutas en donde se encuentra el comando
 
 . Hay dos tipos de variables utilizadas y son las de (Entorno (env)) y (Locales(minusculas)), las de entorno son normalmente utilizadas con HOME y PATH - Las variables locales son generalmente puestas con minusculas por ejemplo: 
-  . Para eliminar una variable se utiliza el comando "unset"
+. Para eliminar una variable se utiliza el comando "unset"
+. el comaando (which) busca la ubicacion de los comandos --- ejmp: which cal
 
   
 }
