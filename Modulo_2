@@ -35,27 +35,37 @@ CLI : Interfaz de Linea de Comandos
 
 
 
-GLOSARIO {
+*****************GLOSARIO {
   MOTD = Mensajes del dia, se produce despues de iniciar sesion y es el mensaje de bienvenida al entrar con el login del servidor
-
-}
-
+  }
 
 
 
-COMANDOS APRENDIDOS {
+
+*****************COMANDOS APRENDIDOS {
   W : Muestra quien está conectado
   ls : Muestra la informacion de los directorios y archivos
   ls -l : Muestra la informacion de los directorios y archivos con el peso y permisos
   ls -l -h : Muestra la informacion de los directorios y archivos con el peso en (lenguaje humano) y permisos, tambiense puede utilizar asi : ls -lh
   history : para ver el historial de comandos ejecutados en terminal - [ si quiero utilizar uno de los comandos dados entonces debo poner por ejemplo (!7) signo de exclamacion seguido de el numero del comando tambien hay otros comandos que se pueden utilizar con el comando history por ejemplo:
-            COMANDO          RESULTADO
+
+     -------------------------------------------------------------------------------------
+            COMANDO                          RESULTADO
+     -------------------------------------------------------------------------------------
             history5         Arroja los ultimos 5 comandos puestos
-            !-5        Ejecuta el 5° comando desde la parte inferior del terminal
-            !ls        Ejecuta el ultimo ls puesto en consola
-            !!         Ejecuta el ultimo comando utilizado
-            
-]
-  
+            !-5              Ejecuta el 5° comando desde la parte inferior del terminal
+            !ls              Ejecuta el ultimo ls puesto en consola
+            !!               Ejecuta el ultimo comando utilizado
+  ]
+
+
+************** VARIABLES ****************
+  echo : este comando ejecuta - muestra el valor de las variables 
+  $HISTSIZE : que originalmente arroja 1000, que serian los datos que se pueden almacenar
+  $PATH : Muestra las rutas en donde se encuentra el comando
+
+. Hay dos tipos de variables utilizadas y son las de (Entorno (env)) y (Locales(minusculas)), las de entorno son normalmente utilizadas con HOME y PATH - Las variables locales son generalmente puestas con minusculas por ejemplo: 
+  . Para eliminar una variable se utiliza el comando "unset"
+
   
 }
